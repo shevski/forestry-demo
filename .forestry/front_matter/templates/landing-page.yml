@@ -87,5 +87,9 @@ fields:
 - type: list
   name: ttt
   label: ttt
+- type: blocks
+  label: gfdg
+  name: gfdg
+  description: gg
 pages:
 - index.md
