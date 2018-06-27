@@ -41,6 +41,9 @@ fields:
     required: true
     schema:
       format: markdown
+- type: blocks
+  name: domain_expertise_in
+  label: Domain expertise in
 - name: services
   label: Experienc in
   type: field_group_list
@@ -66,9 +69,6 @@ fields:
   name: show_news
   label: Show News?
   description: Enables a news section with a twitter feed & latest posts
-- type: image_gallery
-  name: partners
-  label: Partner Logos
 - type: boolean
   name: show_staff
   label: Show Staff?
@@ -79,10 +79,13 @@ fields:
   hidden: true
   default: home
 - type: blocks
-  name: domain_expertise_in
-  label: Domain expertise in
-- type: blocks
   name: expertise_in
   label: Expertise in
+- type: blocks
+  name: ''
+  label: ''
+- type: list
+  name: ttt
+  label: ttt
 pages:
 - index.md
