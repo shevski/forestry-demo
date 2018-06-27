@@ -25,11 +25,12 @@ hero_button:
   text: Learn more
   href: "/about"
 show_news: true
-show_staff: false
+show_staff: true
 domain_expertise_in: []
 expertise_in: []
 '': []
 ttt: []
+gfdg: []
 menu:
   navigation:
     name: Home
