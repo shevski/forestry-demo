@@ -42,7 +42,7 @@ fields:
     schema:
       format: markdown
 - name: services
-  label: Services
+  label: Experienc in
   type: field_group_list
   fields:
   - name: heading
@@ -78,5 +78,11 @@ fields:
   type: text
   hidden: true
   default: home
+- type: blocks
+  name: domain_expertise_in
+  label: Domain expertise in
+- type: blocks
+  name: expertise_in
+  label: Expertise in
 pages:
 - index.md
